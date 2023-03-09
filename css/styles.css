@@ -1,0 +1,143 @@
+body{
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+h1{
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 1.5;
+    color:whitesmoke;
+    padding-bottom: 50px;
+}
+
+#title{
+    position: relative;
+    background-color: #ff4c68;
+    overflow: hidden;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.btn{
+    padding: 10px 30px;
+    margin-right: 20px;
+}
+.navbar{
+    padding-bottom : 4.5rem ;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.dogimage{
+    position: absolute;
+    translate: 0 -45px;
+    transform: rotate(25deg);
+    padding-left: 100px;
+    padding-top:20px;
+    padding-bottom:40px;
+}
+
+.nav-item{
+    padding:18px;
+}
+.nav-link{
+    color: white;
+}
+
+.featuresrow{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.fa-solid{
+    font-size: 5rem;
+    color: #ff4c68;
+    padding-bottom: 2rem;
+}
+.fa-solid:hover{
+    color:#ff4c88;
+}
+h3{
+    font-weight: bold;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+    text-align: center;
+    
+    background-color: #ff4c68;
+    color: whitesmoke;
+}
+
+.carousel-item{
+    padding:7% 15%;
+}
+
+h2{
+    font-size:3rem;
+    font-weight: bold;
+}
+
+.testimonial-image{
+    width:20%;
+    border-radius:100%;
+    padding:20px 0;
+}
+
+#press{
+    background-color: whitesmoke;
+    text-align: center;
+
+}
+.press-names{
+    width: 15%;
+    margin:2rem 4rem 2rem;
+}
+
+.cbtnf{
+    background: rgb(255,76,104);
+background: linear-gradient(90deg, rgba(255,76,104,1) 0%, rgba(165,48,48,1) 47%, rgba(63,0,0,1) 95%);
+}
+
+.cbtnp{
+    background: rgb(63,0,0);
+background: linear-gradient(90deg, rgba(63,0,0,1) 5%, rgba(165,48,48,1) 47%, rgba(255,76,104,1) 97%);
+}
+
+h4{
+    font-style: Montserrat;    
+}
+
+.pricingtext{
+    text-align: center;
+    padding: 6rem 5rem 4rem;
+}
+
+.pbtn:hover{
+    background-color: #ff4c68;
+}
+.premiumcard{
+    background-color:#ff4c68;
+}
+
+
+#cta{
+    text-align: center;
+    padding-top:20px;
+    background-color: whitesmoke;
+}
+
+#footer{
+    text-align: center;
+    padding-top: 20px
+    ;
+    background-color: whitesmoke;
+}
