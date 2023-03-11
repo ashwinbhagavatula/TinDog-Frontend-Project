@@ -1,3 +1,6 @@
+html{
+    overflow-x: hidden; 
+}
 body{
     font-family: Montserrat;
     font-weight: 400;
@@ -15,7 +18,7 @@ h1{
 #title{
     position: relative;
     background-color: #ff4c68;
-    overflow: hidden;
+    overflow: hidden; 
 }
 
 .container-fluid{
@@ -140,4 +143,33 @@ h4{
     padding-top: 20px
     ;
     background-color: whitesmoke;
+}
+
+.pcard{
+    width:30%;
+    margin:0 auto;
+}
+
+
+
+/* Mobile */
+
+@media screen and (max-width: 800px) {
+    
+    .pcard{
+        width:80%;
+        margin: 0 auto;
+    }
+
+    #title{
+        position:relative;
+        overflow:visible;
+    }
+
+    .dogimage{
+        position: relative;
+        translate: 0;
+        transform: rotate(0deg);
+        width: 90%;
+    }
 }
