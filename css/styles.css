@@ -165,11 +165,46 @@ h4{
         position:relative;
         overflow:visible;
     }
+    .container-fluid{
+        padding: 3% 8%;
+    }
 
     .dogimage{
         position: relative;
         translate: 0;
         transform: rotate(0deg);
-        width: 90%;
+        width: 100%;
+        padding-left:0;
+    }
+
+    h1{
+        font-size:2rem;
+        text-align: center;
+    }
+
+    .btn{
+        width:75%;
+        margin:4% auto;
+    }
+    .heading{
+        text-align:center;
+    }
+
+    h2{
+        font-size:1.8rem;
+        font-weight: bold;
+    }
+
+    .testimonial-image{
+        width:50%;
+        border-radius:100%;
+        padding:20px 0;
+    }
+
+    .press-names{
+        width: 35%;
+        margin:2rem 1rem 2rem;
     }
 }
+
+
